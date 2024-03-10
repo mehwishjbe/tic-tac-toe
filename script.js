@@ -12,7 +12,7 @@ const winPatterns = [
     [2,4,6],
     [3,4,5],
     [6,7,8]
-]
+];
 
 boxes.forEach((box) => {
     box.addEventListener("click", () => {
@@ -24,5 +24,13 @@ boxes.forEach((box) => {
             turnO = true;
         }
         box.disabled = true;
+
+        checkWinner();
     });
 });
+
+const checkWinner = () => {
+    for(let pattern of winPatterns){
+        console.log(pattern);
+    }
+};
