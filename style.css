@@ -36,3 +36,13 @@ body{
     color: #b0413e;
     background-color: white;
 }
+
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191919;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
