@@ -43,7 +43,7 @@ const disableBoxes = () => {
         box.disabled = true;
     }
 }
- 
+
 const checkWinner = () => {
     for(let pattern of winPatterns){
         let pos1Val   =    boxes[pattern[0]].innerText;
@@ -58,3 +58,18 @@ const checkWinner = () => {
         }
     }
 };
+
+const resetGame = () => {
+    turnO = true;
+    enableBoxes();
+    msgContainer.classList.add("hide");
+}
+
+const enableBoxes = () => {
+    for(let box of boxes){
+        box.disabled = false;
+        box.innerText = " ";
+
+    }
+}
+ 
