@@ -46,3 +46,12 @@ body{
     border-radius: 1rem;
     border: none;
 }
+
+#msg{
+    color: white;
+    font-size: 8vmin;
+}
+
+.msg-container{
+    height: 10min;
+}
