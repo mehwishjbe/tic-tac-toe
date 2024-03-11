@@ -74,3 +74,4 @@ const enableBoxes = () => {
 }
 
 resetBtn.addEventListener("click", resetGame);
+newGameBtn.addEventListener("click", resetGame);
