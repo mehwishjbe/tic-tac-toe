@@ -3,6 +3,8 @@ let resetBtn = document.querySelector("#reset-btn");
 let newGameBtn = document.querySelector("#new-game");
 let msg = document.querySelector("#msg");
 let msgContainer = document.querySelector(".msg-container");
+let title = document.querySelector("#gameTitle");
+let titleContainer = document.querySelector(".title-container");
 
 let turnO = true;
 
@@ -35,6 +37,8 @@ boxes.forEach((box) => {
 const showWinner = (winner) => {
     msg.innerText = `Congratulations, Winner is ${winner}`;
     msgContainer.classList.remove("hide");
+    title.innerText = "";
+    titleContainer.classList.remove("hidden");
     disableBoxes();
 }
 
@@ -62,6 +66,7 @@ const checkWinner = () => {
 const resetGame = () => {
     turnO = true;
     enableBoxes();
+    titleContainer.classList.remove("hidden");
     msgContainer.classList.add("hide");
 }
 
