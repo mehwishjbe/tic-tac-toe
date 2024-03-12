@@ -103,3 +103,17 @@ body {
 .hidden {
   display: block;
 }
+
+
+@media (max-width: 412px) {
+    #msg {
+      color: #fefae0;
+      font-size: 7vmin;
+    }
+  
+    .msg-container {
+      height: 10min;
+      padding-top: 100px;
+    }
+  }
+  

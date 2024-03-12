@@ -66,7 +66,7 @@ const checkWinner = () => {
 const resetGame = () => {
   turnO = true;
   enableBoxes();
-  titleContainer.classList.add("hidden");
+  titleContainer.classList.remove("hidden");
   msgContainer.classList.add("hide");
 };
 
