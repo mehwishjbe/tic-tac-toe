@@ -68,3 +68,7 @@ body{
 .hide{
     display: none;
 }
+
+.hidden{
+    display: block;
+}
