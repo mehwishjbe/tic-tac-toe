@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #548687;
+    background-color: #DDA15E;
     text-align: center;
 }
 
@@ -20,6 +20,7 @@ body{
 .title-container h1{
     margin-top: 20px;
     margin-bottom: 15px ;
+    color: #FEFAE0;
 }
 
 .game{
@@ -42,7 +43,7 @@ body{
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
     font-size: 8vmin;
     color: #b0413e;
-    background-color: white;
+    background-color: #FEFAE0;
 }
 
 
@@ -50,8 +51,8 @@ body{
     height: 2.3rem;
     width: 19.5rem;
     font-size: 1.10rem;
-    background-color: #191919;
-    color: white;
+    background-color: #BC6C25;
+    color: #FEFAE0;
     border-radius: 0.5rem;
     border: none;
     margin-top: 15px;
@@ -60,15 +61,16 @@ body{
     height: 2.3rem;
     width: 19.5rem;
     font-size: 1.10rem;
-    background-color: #191919;
-    color: white;
+    background-color: #BC6C25;
+    color: #FEFAE0;
     border-radius: 0.5rem;
     border: none;
     margin-top: 15px;
+
 }
 
 #msg{
-    color: white;
+    color: #FEFAE0;
     font-size: 8vmin;
 }
 
