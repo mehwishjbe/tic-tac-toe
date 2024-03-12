@@ -2,6 +2,10 @@
 
 This project is a simple but visually appealing implementation of the classic Tic Tac Toe game. It's built with HTML, CSS, and JavaScript, featuring a dynamic gradient background that enhances the user experience.
 
+#### Web Design Preview
+![Tic Tac Toe Game](./images/preview_1.JPG)
+![Tic Tac Toe Game](./images/preview_2.JPG)
+
 ## Table of Contents
 
 - [Live Demo](#live-demo)
